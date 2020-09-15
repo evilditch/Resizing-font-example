@@ -28,3 +28,9 @@ aside {
     top: 0;
 }
 
+aside section {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3AFDC6;
+    border-radius: 1em;
+}
