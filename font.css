@@ -3,11 +3,15 @@ html {
 }
 
 main {
-    font-size: 1.5em;
+    font-size: 1.15em;
 }
 
 main p {
     font-size: 1em;
+}
+
+.motto {
+    font-size: 1rem;
 }
 
 aside {
