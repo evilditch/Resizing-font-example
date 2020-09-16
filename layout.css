@@ -1,19 +1,20 @@
 header {
     display: block;
     width: 100%;
+    margin: 40px 0 20px;
     background-color: #AB06B1;
     color: #B8B8B8;
 }
 
+
 .row {
     width: 100%;
-    margin: -15px;
+    display: flex;
+    flex-flow: row;
 }
 
 main {
-    width: 75%;
-    float: left;
-    background-color: #F5F5F5;
+    flex: 0 1 75%;
     color: #0A0A0A;
 }
 
@@ -22,15 +23,22 @@ h1 {
 }
 
 aside {
-    width: 25%;
-    float: right;
+    flex: 0 1 25%;
     background-color: #C3C3C3;
-    top: 0;
+    margin-top: 0;
 }
 
-aside section {
+aside .motto {
+    margin-bottom: 20px;
+}
+
+aside img {
+    max-width: 90%;
+}
+
+aside .box {
     margin-left: auto;
     margin-right: auto;
-    background-color: #3AFDC6;
+    border: 2px solid #3AFDC6;
     border-radius: 1em;
 }
