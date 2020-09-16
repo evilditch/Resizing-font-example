@@ -10,6 +10,10 @@ main p {
     font-size: 1em;
 }
 
+strong {
+    font-size: 20px;
+}
+
 .motto {
     font-size: 1rem;
 }
